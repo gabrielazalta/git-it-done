@@ -6,7 +6,7 @@ Search for GitHub repositories with open issues and pull requests. You can serac
 ## Built With
 * HTML
 * CSS
-*JavaScript
+* JavaScript
 
 ## Website
 https://gabrielazalta.github.io/git-it-done/
