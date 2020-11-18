@@ -20,7 +20,6 @@ var getRepoName = function () {
 
 var getRepoIssues = function(repo) {
     var apiUrl = "https://api.github.com/repos/" + repo + "/issues?direction=asc";
-debugger;
     fetch(apiUrl).then(function(response) {
         //request was succesful
         if (response.ok) {
@@ -88,5 +87,4 @@ var displayWarning = function(repo) {
     limitWarningEl.appendChild(linkEl);
 };
 
-getRepoIssues();
 getRepoName();
